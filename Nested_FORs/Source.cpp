@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 //#define TABLE
 //#define TRIANGHLE_1
@@ -23,7 +23,7 @@ void main()
 #ifdef TRIANGHLE_1
     setlocale(LC_ALL, "RUS");
     int n;
-    cout << "Ââåäèòå êîë-âî çâ¸çäî÷åê: "; cin >> n;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»-Ð²Ð¾ Ð·Ð²Ñ‘Ð·Ð´Ð¾Ñ‡ÐµÐº: "; cin >> n;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <= i; j++)
@@ -37,7 +37,7 @@ void main()
 #ifdef TRIANGHLE_2
     setlocale(LC_ALL, "RUS");
     int n;
-    cout << "Ââåäèòå êîë-âî çâ¸çäî÷åê: "; cin >> n;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»-Ð²Ð¾ Ð·Ð²Ñ‘Ð·Ð´Ð¾Ñ‡ÐµÐº: "; cin >> n;
     for (int i = 0; i < n; i++)
     {
         for (int j = i; j < n; j++)
@@ -51,7 +51,7 @@ void main()
 #ifdef TRIANGHLE_3
     setlocale(LC_ALL, "RUS");
     int n;
-    cout << "Ââåäèòå êîë-âî çâ¸çäî÷åê: "; cin >> n;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»-Ð²Ð¾ Ð·Ð²Ñ‘Ð·Ð´Ð¾Ñ‡ÐµÐº: "; cin >> n;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < i; j++) cout << "  ";
@@ -62,7 +62,7 @@ void main()
     setlocale(LC_ALL, "RUS");
     int n,s;
     s = 1;
-    cout << "Ââåäèòå øèðèíó: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ: ";
     cin >> n;
     for (int i = 0; i < n; ++i)
     {
